@@ -16,3 +16,5 @@ nueva_list . insert ( 2 , "clara")
 print (nueva_list)
 nueva_list . remove (26)
 print (nueva_list)
+nueva_list [3] = "JGH"
+print (nueva_list)
