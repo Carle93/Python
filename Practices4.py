@@ -1,3 +1,6 @@
+import sys
+
+
 #Tuplas 
 colors = ( "red" , "blue" , "green" , 155 , 1/2 , "CH")
 print ( colors [2])
@@ -10,6 +13,8 @@ print (edad ["c"])
 
 edad ["a"] = 35
 print (edad)
+sys.exit ("detener")
 
 del edad ["b"]
 print (edad)
+
